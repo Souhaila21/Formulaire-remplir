@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Quintessential&display=swap');
+body {
+    text-align: center;
+    padding-top: 90px;
+    padding-left: 250px;
+    padding-right: 600px;
+    background-color: rgb(250, 209, 209);
+    background-image: url(/10-Colorful-Low-Poly-Textures.jpg);
+}
+
+img {
+    margin-left: 600px;
+}
+
+h1 {
+    font-family: quintessential;
+    color: rgb(199, 199, 26);
+    text-align: center;
+}
+
+p {
+    font-family: quintessential;
+    text-transform: capitalize;
+    font-weight: bold;
+    color: rgb(15, 136, 15);
+    text-align: center;
+}
+
+.formulaire {
+    border-style: double;
+    border-radius: 20px;
+    padding: 40px;
+    font-size: 20px;
+    text-align: justify;
+    background-color: beige;
+    color: rgb(150, 68, 68);
+    font-weight: 700;
+    position: relative;
+}
+
+input {
+    text-align: justify;
+    padding: 15px;
+    border-radius: 5px;
+    border-color: darkred;
+}
+
+.message {
+    padding: 70px 250px 70px 70px;
+}
+
+button {
+    position: absolute;
+    margin-left: 700px;
+    padding: 10px;
+    background-color: rgb(27, 143, 143);
+    color: white;
+    font-weight: bolder;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
